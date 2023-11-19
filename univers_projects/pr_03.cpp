@@ -1,4 +1,4 @@
-#define _USE_MATH_DEFINES
+п»ї#define _USE_MATH_DEFINES
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <math.h>
@@ -12,7 +12,7 @@ int main() {
 
     char n;
 
-    printf("Введите любой символ: ");
+    printf("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕР№ СЃРёРјРІРѕР»: ");
     scanf_s("%c", &n);
 
     switch (n) {
@@ -24,7 +24,7 @@ int main() {
 
     double x, y, z;
 
-    printf("\nВведите значения x, y, z: "); // -0,02235 2,23 15,221
+    printf("\nР’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ x, y, z: "); // -0,02235 2,23 15,221
     scanf_s("%lf %lf %lf", &x, &y, &z);
 
     double res_p1 = abs(x - y);
@@ -42,7 +42,7 @@ int main() {
 
     double res = res1 + res2;
 
-    printf("Результат вычислений: %lf", res);
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёР№: %lf", res);
 
     return 0;
 }
